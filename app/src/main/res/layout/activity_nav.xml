@@ -35,5 +35,3 @@
         app:labelVisibilityMode="selected"
         style="@style/BottomNavigation"/>
 </RelativeLayout>
-
-

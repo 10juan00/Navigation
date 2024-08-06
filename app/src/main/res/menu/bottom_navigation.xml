@@ -3,15 +3,19 @@
     <!-- Ítems del Bottom Navigation -->
     <item
         android:id="@+id/firstFragment"
-        android:icon="@android:drawable/ic_input_add"
-        android:title="Primero"/>
+        android:icon="@android:drawable/stat_sys_phone_call"
+        android:title="Peticiones" />
     <item
         android:id="@+id/secondFragment"
         android:icon="@android:drawable/ic_input_add"
-        android:title="Segundo"/>
+        android:title="Tareas por hacer"/>
     <item
         android:id="@+id/thirdFragment"
         android:icon="@android:drawable/ic_input_add"
-        android:title="Tercero"/>
+        android:title="Tareas rechazadas"/>
+    <item
+        android:id="@+id/fourFragment"
+        android:icon="@android:drawable/ic_input_add"
+        android:title="Tareas terminadas"/>
 </menu>
 

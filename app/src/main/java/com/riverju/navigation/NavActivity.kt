@@ -14,6 +14,7 @@ class NavActivity : AppCompatActivity() {
     private val firstFragment = FirstFragment()
     private val secondFragment = SecondFragment()
     private val thirdFragment = ThirdFragment()
+    private val fourFragment = FourFragment()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -45,8 +46,12 @@ class NavActivity : AppCompatActivity() {
                 // Acción al seleccionar 'settings'
                 true
             }
+            R.id.action_asistencia -> {
+                // Acción al seleccionar 'asistencia'
+                true
+            }
             R.id.nav_refresh -> {
-                // Acción al seleccionar 'settings'
+                // Acción al seleccionar 'refresh'
                 true
             }
             R.id.nav_logout -> {
@@ -71,6 +76,10 @@ class NavActivity : AppCompatActivity() {
                 }
                 R.id.thirdFragment -> {
                     loadFragment(thirdFragment)
+                    true
+                }
+                R.id.fourFragment -> {
+                    loadFragment(fourFragment)
                     true
                 }
                 else -> false
