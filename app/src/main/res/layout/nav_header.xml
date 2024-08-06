@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="?attr/colorPrimary">
+
+    <!-- Imagen del encabezado del drawer -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:src="@drawable/ic_launcher_foreground" />
+
+    <!-- Título del encabezado del drawer -->
+    <TextView
+        android:id="@+id/nav_header_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:text="Header Title"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <!-- Subtítulo del encabezado del drawer -->
+    <TextView
+        android:id="@+id/nav_header_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:text="header.subtitle"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+</LinearLayout>
